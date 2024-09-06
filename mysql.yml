@@ -4,6 +4,7 @@
   vars:
     mysql_root_password: ExpenseApp@1
     login_host: mysql.vvsmgold.online
+    
   tasks:
   - name: ansible to install pymysq
     ansible.builtin.pip: 
