@@ -5,8 +5,8 @@
     mysql_root_password: ExpenseApp@1
     login_host: mysql.vvsmgold.online
   tasks:
-  - name: installing dependices
-    ansible.builtin.pip: ansible to install pymysql
+  - name: ansible to install pymysq
+    ansible.builtin.pip: 
       name:
         - PyMySQL
       executable: pip3.9
