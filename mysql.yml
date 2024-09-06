@@ -6,7 +6,7 @@
     login_host: mysql.vvsmgold.online
   tasks:
   - name: installing dependices
-    ansible.builtin.pip:
+    ansible.builtin.pip: ansible to install pymysql
     name:
     - pymysql
     executable: pip3.9
